@@ -881,6 +881,16 @@ svg {
     animation: javascript 1s ease-out forwards;
 }
 
+.typescript .circle_animation {
+    -webkit-animation: javascript 1s ease-out forwards;
+    animation: javascript 1s ease-out forwards;
+}
+
+.csharp .circle_animation {
+    -webkit-animation: javascript 1s ease-out forwards;
+    animation: javascript 1s ease-out forwards;
+}
+
 @-webkit-keyframes java {
   to {
     stroke-dashoffset: 22; /* 50% would be 220 (half the initial value specified above) */
@@ -977,6 +987,29 @@ svg {
   }
 }
 
+@-webkit-keyframes typescript {
+  to {
+    stroke-dashoffset: 88;
+  }
+}
+
+@keyframes typescript {
+  to {
+    stroke-dashoffset: 88;
+  }
+}
+
+@-webkit-keyframes csharp {
+  to {
+    stroke-dashoffset: 88;
+  }
+}
+
+@keyframes csharp {
+  to {
+    stroke-dashoffset: 88;
+  }
+}
 
 .article-container {
   max-width: 760px;
