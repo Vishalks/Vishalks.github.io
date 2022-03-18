@@ -989,13 +989,13 @@ svg {
 
 @-webkit-keyframes typescript {
   to {
-    stroke-dashoffset: 88;
+    stroke-dashoffset: 44;
   }
 }
 
 @keyframes typescript {
   to {
-    stroke-dashoffset: 88;
+    stroke-dashoffset:44;
   }
 }
 
