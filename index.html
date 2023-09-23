@@ -207,16 +207,36 @@
                               <h4 class="card-title exp-company my-0">Product: <a href="https://aws.amazon.com/console/" target="_blank" rel="noopener">
                                  <b><u>AWS Management Console</u></b></a>
                               </h4>
+							  <h4 class="card-title exp-company my-0">Team:
+                                 <b>User Insights Services Personalization</b></a>
+                              </h4>
                               <div class="card-text">
-                                 <p>•	Part of the User Insights Services Personalization (UIS) team at Amazon Web Services (AWS) under AWS Console Platform division. UIS is an internal service that harnesses Machine Learning to enable service teams to deliver personalized experiences to Console users.<br>
-                                    •	Thoroughly investigated the reasons for missing data attributes in the requests served by UIS to various AWS Console teams.<br>
-                                    •	Designed and implemented data backfill workflow from sratch using Native AWS technologies to address data inconsistency. This workflow is expected to largely improve data quality and also help uncover problematic data from the upstream service.<br>
-                                    •	Actively participated in code reviews and design discussions. Also contributed to the Opensearch open source projects at AWS.
+                                 <p>• Led a team of 4 engineers to deliver Machine Learning projects that generate real-time recommend services and user persona for AWS users. Unified the data source for consumption by all AWS Console teams who saw a 20% jump in new user activities in the Beta rollout.<br>
+                                    • Designed a unified data service across all AWS teams, emitting data for personalized experience on different consoles. Captured data from  RedShift into S3 using Hammerstone SQL jobs and built a data pipeline with Python Glue to process the data. Ran a SageMaker ML inference model via Java AWS Lambda and used DynamoDB as the model inference storehouse<br>
+                                    • Added a data backfill workflow in Java for data sanity and collected metrics on Cloudwatch dashboards to trigger alarms for polluted data<br>
+                                    • Opt-in Region Expansion: Working on expanding the Personalization service in multiple regions. Reduces service latency, mitigates data  security concerns and provides a one-click mechanism to expand the service to any new AWS region in the future.<br>
+									• Participated in code reviews and design discussions. Handled on-call duties for personalization and data engineering teams.
+
                                  </p>
                                  <br>
                                  <p>
                                     <b>Technologies: </b>
-                                    Java, Native AWS technologies
+                                    Java,  DynamoDB, Lambda, Simple Storage Service (S3), Simple Queue Service (SQS), Glue, Simple Notification Service (SNS), SageMaker, Identity & Access Management (IAM), CloudWatch, OpenSearch
+                                 </p>
+                              </div>
+							  <h4 class="card-title exp-company my-0">Product: <a href="https://github.com/opensearch-project/OpenSearch" target="_blank" rel="noopener">
+                                 <b><u>OpenSearch</u></b></a>
+                              </h4>
+							  <h4 class="card-title exp-company my-0">Team:
+                                 <b>OpenSearch Core Engine</b></a>
+                              </h4>
+                              <div class="card-text">
+                                 <p>• Enhanced performance of AWS OpenSearch, an open source version of ElasticSearch in Java. Allowed deletion of read-only searchable snapshot indices and guarded snapshot backing indices from deletion. Fixed the search API for datetime input parameter.
+                                 </p>
+                                 <br>
+                                 <p>
+                                    <b>Technologies: </b>
+                                    Java
                                  </p>
                               </div>
                            </div>
@@ -252,11 +272,15 @@
                               <h4 class="card-title exp-company my-0">Product: <a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-whiteboard/digital-whiteboard-app" target="_blank" rel="noopener">
                                  <b><u>Whiteboard</u></b></a>
                               </h4>
+							  <h4 class="card-title exp-company my-0">Team:
+                                 <b>Whiteboard Integrations</b></a>
+                              </h4>
                               <div class="card-text">
-                                 <p>•	Part of the Integrations team at Whiteboard that integrates Whiteboard with Microsoft Teams having 270M+ monthly active users.<br>
-                                    •	Designed and implemented proof token and owner-only edit mode in Typescript, enabling external users to edit meeting whiteboards.<br>
-                                    •	Mitigated privacy concerns for gov tenants by using the low-latency Microsoft Fluid framework for Whiteboard tab app backend storage.<br>
-                                    •	Mentored interns twice to enhance Whiteboard functionalities within Teams. These include building a personal app which enables users to access all boards in the app, generating user notifications when a board is shared in a meeting, pasting board link in meeting chat.<br>
+                                 <p>•	Worked on several high impact features that enhance Whiteboard user experience in Microsoft Teams having 270M+ monthly active users.<br>
+                                    •	Designed and implemented owner-only mode in React and Typescript. Extended Whiteboard edit mode to external users in tenant meeting. <br>
+                                    •	Improved Whiteboard security by introducing proof tokens on the client side and validating user actions in a Teams meeting session.<br>
+                                    •	Mitigated privacy concerns for gov tenants for Tab App by migrating data storage to the latest low-latency Microsoft Fluid framework.<br>
+									•	Mentored interns twice to enhance Whiteboard functionalities within Teams. The projects accomplished integrating the app to unify user-owned boards, pasting board links in meeting chat and implementing the Whiteboard notification feature.<br>
                                     •	Actively participated in code reviews, design discussions, interview loops and mentoring new hires. Promoted writing high quality code with documentation and unit tests within the org. Increased diversity and inclusion awareness at Whiteboard as a member of D&I team.
                                  </p>
                                  <br>
@@ -298,9 +322,11 @@
                               <h4 class="card-title exp-company my-0">Product: <a href="https://www.microsoft.com/en-us/microsoft-365/microsoft-whiteboard/digital-whiteboard-app" target="_blank" rel="noopener">
                                  <b><u>Whiteboard</u></b></a>
                               </h4>
+							  <h4 class="card-title exp-company my-0">Team:
+                                 <b>Whiteboard Integrations</b></a>
+                              </h4>
                               <div class="card-text">
-                                 <p>Created a Whiteboard tab application using C# and Typescript for Microsoft Teams having 270M+ monthly active users.This application will provide a seamless
-                                    user experience within Teams for collaboration and is expected to largely increase Microsoft Whiteboard usage.
+                                 <p>Created a Whiteboard tab application for Microsoft Teams using C#, Typescript and Azure CosmosDB. This application led to ~10% increase in Microsoft Whiteboard usage at schools and organizations for asynchronous collaboration during Covid-19.
                                  </p>
                                  <br>
                                  <p><b>Technologies: </b>C#, Typescript</p>
@@ -338,6 +364,9 @@
                               <h4 class="card-title exp-company my-0">Product: <a href="https://www.paysafe.com/en/industries-we-serve/igaming/" target="_blank" rel="noopener">
                                  <b><u>Unity</u></b></a>,
                                  a single API platform for the US iGaming and Gambling transactions
+                              </h4>
+							  <h4 class="card-title exp-company my-0">Team:
+                                 <b>Unity Portal</b></a>
                               </h4>
                               <div class="card-text">
                                  <p><b>Contributions:</b></p>
@@ -380,13 +409,27 @@
                               </div>
                               <h4 class="card-title exp-title mt-0 mb-1">Software Engineer</h4>
                               <h4 class="card-title exp-company text-muted my-0"><a href="https://www.deshawindia.com/" target="_blank" rel="noopener">D.E. Shaw</a></h4>
+							  <h4 class="card-title exp-company my-0">Team:
+                                 <b>Human Resources Development</b></a>
+                              </h4>
                               <div class="card-text">
                                  <p><b>Contributions:</b></p>
                                  <p><a href="https://www.deshawindia.com/Careers.shtml" target="_blank" rel="noopener">Application Tracking System</a>:
                                     Rebuilt the internal Application Management System (AMS) and Recruitment Management System (RMS) with 50% decrease in page load time
                                     and functionalities that improved the applicant experience and increased the efficiency of the Human Capital team.
                                  </p>
-                                 <p>Payroll Workbench: Automated various internal processes such as Deferred Compensation management, Payroll Reconciliation
+                                 <p>Automated various internal processes such as Deferred Compensation management, Payroll Reconciliation
+                                    and Employee Contribution by building user interactive workflows and gadgets. Worked on solving high-priority production issues with extremely low turn-around time.
+                                 </p>
+                                 <br>
+                                 <p><b>Technologies: </b>Java, MySQL, ReactJS, Javascript, Slickgrids, MyBatis</p>
+                              </div>
+							  <h4 class="card-title exp-company my-0">Team:
+                                 <b>Payroll Development</b></a>
+                              </h4>
+                              <div class="card-text">
+                                 <p><b>Contributions:</b></p>
+                                 <p>Automated various internal processes such as Deferred Compensation management, Payroll Reconciliation
                                     and Employee Contribution by building user interactive workflows and gadgets. Worked on solving high-priority production issues with extremely low turn-around time.
                                  </p>
                                  <br>
@@ -928,9 +971,6 @@
                         <span id="person-email" itemprop="email"><a href="mailto:vishalksarda@gmail.com">vishalksarda@gmail.com</a></span>
                      </li>
                      <li>
-                        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-                        <span id="person-telephone" itemprop="telephone"><a href="tel:631-317-8606">631-317-8606</a></span>
-                     </li>
                   </ul>
                </div>
             </div>
